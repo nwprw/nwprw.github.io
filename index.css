@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+}
+
+.input::placeholder {
+  color: #c5c5c5;
+}
+
+.nav-container {
+  text-align: right;
+  padding: 16px 24px;
+}
+
+.nav-brand {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.nav-item {
+  font-size: 14px;
+  color: grey;
+  padding: 16px 0;
+  margin: 0 8px;
+}
+
+.main-container {
+  height: 70vh;
+  background-image: url('https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+}
+
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  color: gray;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  display:inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.button:hover {
+  background-color: pink
+ }
+
+.footer {
+  color: white;
+  text-align: right;
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  width: 180px;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding: 0 40px;
+}
+
+.input {
+  font-size: 16px;
+  font-weight: 300;
+  height: 48px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 256px 0 0;
+  }
+  .main-container {
+    height: fit-content;
+    background-position: top;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+.image {
+  height: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Start writing your code here
+--------------------------------------------------------------------------------------------------------- */
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Solution
+--------------------------------------------------------------------------------------------------------- */
+
+/* 
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 256px 0 0;
+  }
+  .main-container {
+    height: fit-content;
+    background-position: top;
+  }
+  .footer {
+    display: none;
+  }
+} 
+*/
